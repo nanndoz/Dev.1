@@ -1,0 +1,116 @@
+.colores {
+    background-color: rgb(241, 239, 239);
+}
+.container-md {
+    margin-top: 90px;
+
+    /* div izquierdo */
+
+    /*div centro*/
+
+    /*div derecho*/
+    .col {   
+        border: none;
+        background-color: rgb(241, 239, 239);
+        
+        /*Card 1*/
+        .card1 {
+        
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+                
+            .card1__tittle {
+                padding-top: 20px;
+                padding-right: 10px;
+                margin-bottom: 15px;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .dev {
+                    font-size: 14px;
+                }
+                
+            .imagen {
+            
+                .card-img-top {
+                    width: 10px;
+                    margin-left: 100px;
+                }
+            }
+        
+            
+        }
+    }
+        /*Card 2*/
+        .card--group1 {
+            
+            border-radius: 8px;
+            margin-bottom: 10px;
+            
+            
+            .list-group {
+
+                
+
+                    .list-group-item {
+                        height: auto;
+                        background-color: rgb(246, 250, 245);
+                        
+                        .card2__tittle {
+                            margin-top: 6px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            font-size: 19px;
+                            
+                            .Link--See {
+                                text-decoration:none;
+                                font-size: 13px;
+                            }
+                        }
+                        .card2__footer {
+                            text-align: center;
+                            font-size: 14px;
+                            
+
+                        }
+                }
+            
+        }   
+        .card2__link--item {
+            text-decoration:none;
+            }
+            .list-group-item:hover {
+                background-color: white;
+                color:blue;
+            }
+            .card2__footer:hover {
+                color: blue;
+            }
+        
+            .tittles__ul {
+                .tittle--one {
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 15px;
+                    letter-spacing:0.05em;
+                }
+            }
+        
+        }
+
+      /*  .card--group2 {
+            .tittles__ul {
+                .tittle--one {
+                    font-family:'Times New Roman', Times, serif;
+                    font-size: 15px;
+                    $spacing-letter: 0.10em;
+                }
+            }
+        }*/
+
+
+}
+}
