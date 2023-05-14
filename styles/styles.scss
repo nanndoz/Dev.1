@@ -91,25 +91,31 @@
                 color: blue;
             }
         
+
+        
+        }
+
+        .card--group2 {
             .tittles__ul {
                 .tittle--one {
                     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     font-size: 15px;
-                    letter-spacing:0.05em;
+                    letter-spacing:0.08em;
                 }
             }
-        
+            .list--group2 {
+                .card5__link--item {
+                    text-decoration:none;
+                    color: rgba(0, 0, 0, 0.777);
+                    }
+                    .list-group-item:hover {
+                        background-color: white;
+                        color:blue;
+                    }
+                    
+            }
         }
 
-      /*  .card--group2 {
-            .tittles__ul {
-                .tittle--one {
-                    font-family:'Times New Roman', Times, serif;
-                    font-size: 15px;
-                    $spacing-letter: 0.10em;
-                }
-            }
-        }*/
 
 
 }
