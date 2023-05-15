@@ -222,6 +222,10 @@
                 .icon--reactions {
                     width: 18px;
                     height: 18px;
+                    border-radius: 50px;
+                    border: 50px;
+                    border-color: white;
+                    border-width: 10px;
                 }
             }
             .num--reactions {
@@ -242,24 +246,18 @@
 
         }
 
-        /*scss segundo post*/
+        /*scss segundo post
         .images__card__dev {
             
             .images__dev {
             
                 
             }
-        }
+        }*/
 
     }
     
 }
-
-
-
-
-
-
 
 
 
@@ -275,7 +273,7 @@
             padding-right: 15px;
             margin-bottom: 10px;
             border-radius: 8px;
-                
+            
             .card1__tittle {
                 padding-top: 20px;
                 padding-right: 10px;
@@ -301,31 +299,27 @@
     }
         /*Card 2*/
         .card--group1 {
-            
-            border-radius: 8px;
-            margin-bottom: 10px;
-            
-            
+            margin-bottom: 10px; 
+               
             .list-group {
-
+                 
                 
-
-                    .list-group-item {
-                        height: auto;
-                        background-color: rgb(246, 250, 245);
+                .list-group-item {
+                    height: auto;
+                    background-color: rgb(246, 250, 245);
                         
-                        .card2__tittle {
-                            margin-top: 6px;
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: space-between;
-                            font-size: 19px;
+                    .card2__tittle {
+                        margin-top: 6px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        font-size: 19px;
                             
-                            .Link--See {
-                                text-decoration:none;
-                                font-size: 13px;
-                            }
+                        .Link--See {
+                            text-decoration:none;
+                            font-size: 13px;
                         }
+                    }
                         .card2__footer {
                             text-align: center;
                             font-size: 14px;
@@ -334,7 +328,7 @@
                         }
                 }
             
-        }   
+            }   
         .card2__link--item {
             text-decoration:none;
             }
