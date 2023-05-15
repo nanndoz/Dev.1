@@ -51,7 +51,24 @@
 .container__header-nav .container__social-media img {
   color: gray;
 }
+.container__header-nav .conatiner__nav-sesion {
+  display: flex;
+  align-items: center;
+}
 
+@media only screen and (min-width: 768px) {
+  .container__header-nav .input-search {
+    width: 350px;
+  }
+  .container__header-nav .btn-search {
+    position: relative;
+  }
+  .container__header-nav .img-search {
+    position: absolute;
+    top: 8px;
+    left: -50px;
+  }
+}
 a {
   text-decoration: none;
 }

@@ -60,8 +60,48 @@
         }
 
     }
-
+    .conatiner__nav-sesion{
+        display: flex;
+        align-items: center;
+    }
 }
+
+@media only screen and (min-width: 768px) {
+  .container__header-nav{
+    .input-search {
+        width:350px;
+    }
+    .btn-search{
+        position: relative;
+    }
+    .img-search{
+        position: absolute;
+        top: 8px;
+        left: -50px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
