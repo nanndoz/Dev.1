@@ -1,8 +1,150 @@
 .colores {
     background-color: rgb(241, 239, 239);
 }
+
+/* Header */
+.container__header-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: white;
+    .container__menu{
+        display: flex;
+    }
+    .container__nav-links{
+        display: flex;
+        align-items: center;
+    }
+    .site-logo__img{
+        width: 50px;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        margin-left: 43px;
+        margin-top: 7px;
+    }
+    .btn-search{
+        justify-self: flex-end;
+       border: none;
+       background: none;
+    }
+    .avatar__image{
+        border-radius: 100%;
+        width: 35px;
+    }
+    
+    .nav-mobile__principal-list{
+        li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .nav-mobile__other-list{
+        li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            color: hsl(24, 24, 24);
+        }
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .container__social-media{
+        img{
+            color: gray;
+        }
+
+    }
+    .conatiner__nav-sesion{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+  .container__header-nav{
+    .input-search {
+        width:500px;
+    }
+    .btn-search{
+        position: relative;
+    }
+    .img-search{
+        position: absolute;
+        top: 8px;
+        left: -50px;
+    }
+  }
+}
+
+
+/*fin de header*/
+/*Inicio iside1*/
+.container__aside-left{
+  
+    .container__menu{
+        display: flex;
+    }
+    .container__nav-links{
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-mobile__principal-list{
+        li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .nav-mobile__other-list{
+        li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            color: hsl(24, 24, 24);
+        }
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .container__social-media{
+        img{
+            color: gray;
+        }
+
+    }
+    .conatiner__nav-sesion{
+        display: flex;
+        align-items: center;
+    }
+}
+
+/*fin de aside1*/
 .container-md {
-    margin-top: 90px;
+    margin-top: 30px;
 
     /* div izquierdo */
 
