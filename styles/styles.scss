@@ -220,12 +220,14 @@
                 flex-direction: row;
             
                 .icon--reactions {
-                    width: 18px;
-                    height: 18px;
+                    width: 25px;
+                    height: 25px;
                     border-radius: 50px;
-                    border: 50px;
+                    
+                    border-style:solid;
                     border-color: white;
-                    border-width: 10px;
+                    margin-left: -10px;
+                    background-color: rgb(227, 224, 231);
                 }
             }
             .num--reactions {
