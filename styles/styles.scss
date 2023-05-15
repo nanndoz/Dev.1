@@ -9,8 +9,10 @@
     /*div main*/
 .main--card {
     margin-top: 55px;
+    margin-bottom: -45px;
     .card-body{
-        .container__row {
+        /*scss primer post*/
+        .container__primer--post {
 
             
             .container__Hackertab {
@@ -96,6 +98,15 @@
                 margin-top: 8px;
             }
 
+        }
+
+        /*scss segundo post*/
+        .images__card__dev {
+            
+            .images__dev {
+            
+                
+            }
         }
 
     }
