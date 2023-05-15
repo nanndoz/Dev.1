@@ -17,9 +17,405 @@
       crossorigin="anonymous"></script>
 </head>
 <body class="colores">
+<!--Header-->
+
+<header class="container__header-nav">
+  <div class="container__menu">
+   <a class="btn d-block d-sm-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+    aria-controls="offcanvasExample">
+    <img src="./img/hamburger.svg" alt="">
+   </a>
+   <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+     <h5 class="offcanvas-title" id="offcanvasExampleLabel">DEV Community</h5>
+     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+     <div class="container__nav-mobile">
+      <ul class="nav-mobile__principal-list">
+       <li>
+        <a href="#">
+         <span>
+          <img src="./img/home.svg" alt="">
+         </span>
+         Home
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         <span>
+          <img src="./img/listings.svg" alt="">
+         </span>
+         Listings
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         <span>
+          <img src="./img/podcast.svg" alt="">
+         </span>
+         Podcasts
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         <span>
+          <img src="./img/video.svg" alt="">
+         </span>
+         Videos
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         <span>
+          <img src="./img/tags.svg" alt="">
+         </span>
+         Tags
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         <span>
+          <img src="./img/faq.svg" alt="">
+         </span>
+         FAQ
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         <span>
+          <img src="./img/foremShop.svg" alt="">
+         </span>
+         Forem Shop
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         <span>
+          <img src="./img/sponsors.svg" alt="">
+         </span>
+         Sponsors
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         <span>
+          <img src="./img/about.svg" alt="">
+         </span>
+         About
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         <span>
+          <img src="./img/contact.svg" alt="">
+         </span>
+         Contact
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         <span>
+          <img src="./img/guide.svg" alt="">
+         </span>
+         Guides
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         <span>
+          <img src="./img/software.svg" alt="">
+         </span>
+         Software Comparisons
+        </a>
+       </li>
+      </ul>
+      <h2>
+       Other
+      </h2>
+      <ul class="nav-mobile__other-list">
+       <li>
+        <a href="#">
+         <span>
+          <img src="./img/code.svg" alt="">
+         </span>
+         Code of Conduct
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         <span>
+          <img src="./img/privacy.svg" alt="">
+         </span>
+         Privacy Policy
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         <span>
+          <img src="./img/terms.svg" alt="">
+         </span>
+         Terms of use
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="container__social-meida">
+      <a href="#">
+       <img src="./img/twiter.svg" alt="">
+      </a>
+      <a href="#">
+       <img src="./img/facebook.svg" alt="">
+      </a>
+      <a href="#">
+       <img src="./img/gitHub.svg" alt="">
+      </a>
+      <a href="#">
+       <img src="./img/instagram.svg" alt="">
+      </a>
+      <a href="#">
+       <img src="./img/twich.svg" alt="">
+      </a>
+      <a href="#">
+       <img src="./img/mastodon.svg" alt="">
+      </a>
+     </div>
+    </div>
+   </div>
+   <div>
+    <a href="#">
+     <img class="site-logo__img"
+      src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png"
+      alt="DEV Community">
+    </a>
+   </div>
+  </div>
+
+
+  <div class="container__nav-links">
+   <div>
+    <form class="d-flex" role="search">
+     <input class=" input-search d-none d-md-block form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+     <button class="btn-search  ">
+      <img class="img-search" src="./img/search.svg" alt="">
+     </button>
+    </form>
+   </div>
+   <div class="conatiner__nav-sesion">
+    <div>
+     <button  type="button" class="d-none d-md-block btn btn-outline-primary">Create Post</button>
+    </div>
+    
+    <span>
+     <a href="#"><img class="notifications-img" src="./img/notifications.svg" alt=""></a>
+    </span>
+    <span><img class="avatar__image" alt="" id="nav-profile-image"
+      src="https://res.cloudinary.com/practicaldev/image/fetch/s--SFKRL2qQ--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/855939/09855887-fb22-40bd-8743-f0e2176c4f33.png"></span>
+   </div>
+
+  </div>
+
+ </header>
+
     <div class="container-md">
         <div class="d-flex justify-content-around">
-            <div class="col col-sm-3 col-md-3 text-bg-light d-none d-sm-block me-3 col__example">aside1</div>
+            <div class="col col-sm-3 col-md-3 text-bg-light d-none d-sm-block me-3">
+
+              <div class="container__aside-left">
+                <div class="row">
+                 <div class="col">
+                  
+                  <h2 class="crayons-subtitle-2 lh-tight mb-4">
+                   DEV Community is a community of 1,062,487 amazing developers
+                  </h2>
+                  <p class="color-base-70 mb-4">
+                   We're a place where coders share, stay up-to-date and grow their careers.
+                  </p>
+                  <div>
+                   <a href="#">Log in</a>
+                  </div>
+              
+                  <div class="offcanvas-body">
+                   <div class="container__nav-mobile">
+                    <ul class="nav-mobile__principal-list">
+                     <li>
+                      <a href="#">
+                       <span>
+                        <img src="./img/home.svg" alt="">
+                       </span>
+                       Home
+                      </a>
+                     </li>
+                     <li>
+                      <a href="#">
+                       <span>
+                        <img src="./img/listings.svg" alt="">
+                       </span>
+                       Listings
+                      </a>
+                     </li>
+                     <li>
+                      <a href="#">
+                       <span>
+                        <img src="./img/podcast.svg" alt="">
+                       </span>
+                       Podcasts
+                      </a>
+                     </li>
+                     <li>
+                      <a href="#">
+                       <span>
+                        <img src="./img/video.svg" alt="">
+                       </span>
+                       Videos
+                      </a>
+                     </li>
+                     <li>
+                      <a href="#">
+                       <span>
+                        <img src="./img/tags.svg" alt="">
+                       </span>
+                       Tags
+                      </a>
+                     </li>
+                     <li>
+                      <a href="#">
+                       <span>
+                        <img src="./img/faq.svg" alt="">
+                       </span>
+                       FAQ
+                      </a>
+                     </li>
+                     <li>
+                      <a href="#">
+                       <span>
+                        <img src="./img/foremShop.svg" alt="">
+                       </span>
+                       Forem Shop
+                      </a>
+                     </li>
+                     <li>
+                      <a href="#">
+                       <span>
+                        <img src="./img/sponsors.svg" alt="">
+                       </span>
+                       Sponsors
+                      </a>
+                     </li>
+                     <li>
+                      <a href="#">
+                       <span>
+                        <img src="./img/about.svg" alt="">
+                       </span>
+                       About
+                      </a>
+                     </li>
+                     <li>
+                      <a href="#">
+                       <span>
+                        <img src="./img/contact.svg" alt="">
+                       </span>
+                       Contact
+                      </a>
+                     </li>
+                     <li>
+                      <a href="#">
+                       <span>
+                        <img src="./img/guide.svg" alt="">
+                       </span>
+                       Guides
+                      </a>
+                     </li>
+                     <li>
+                      <a href="#">
+                       <span>
+                        <img src="./img/software.svg" alt="">
+                       </span>
+                       Software Comparisons
+                      </a>
+                     </li>
+                    </ul>
+                    <h2>
+                     Other
+                    </h2>
+                    <ul class="nav-mobile__other-list">
+                     <li>
+                      <a href="#">
+                       <span>
+                        <img src="./img/code.svg" alt="">
+                       </span>
+                       Code of Conduct
+                      </a>
+                     </li>
+                     <li>
+                      <a href="#">
+                       <span>
+                        <img src="./img/privacy.svg" alt="">
+                       </span>
+                       Privacy Policy
+                      </a>
+                     </li>
+                     <li>
+                      <a href="#">
+                       <span>
+                        <img src="./img/terms.svg" alt="">
+                       </span>
+                       Terms of use
+                      </a>
+                     </li>
+                    </ul>
+                   </div>
+                   <div class="container__social-meida">
+                    <a href="#">
+                     <img src="./img/twiter.svg" alt="">
+                    </a>
+                    <a href="#">
+                     <img src="./img/facebook.svg" alt="">
+                    </a>
+                    <a href="#">
+                     <img src="./img/gitHub.svg" alt="">
+                    </a>
+                    <a href="#">
+                     <img src="./img/instagram.svg" alt="">
+                    </a>
+                    <a href="#">
+                     <img src="./img/twich.svg" alt="">
+                    </a>
+                    <a href="#">
+                     <img src="./img/mastodon.svg" alt="">
+                    </a>
+                   </div>
+                  </div>
+              
+                  <h3>Popular Tags</h3>
+                 </div>
+                 <div class="col-8">
+                  main
+                 </div>
+                 <div class="col">
+                  aside rigth
+              
+                 </div>
+                </div>
+               </div>
+              
+
+                <!--Card 1-->
+                <div class="card1 text-bg-light">
+                    <div class="card1__tittle">
+                      <div class="dev">DEV Community</div>
+                      <div class="button">. . .</div>
+                    </div>
+                    <div class="imagen">
+                      <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--kUZijgSE--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_350/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gxs2kw7xsfruxa53bqz3.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title"><a class="link-opacity-100" href="#">Join the GitHub + DEV Hackathon!</a></h5>
+                      <p class="card-text">Utilize GitHub Actions or Codespaces, benefit open-source, and win up to $1,500 USD by sharing your project on DEV.</p>
+                                  
+                    </div>
+                </div>
+            </div>
            
            
            <!-- Inicia DIV Main-->
@@ -357,5 +753,7 @@
             
         </div>
     </div>
+
+
 </body>
 </html>
