@@ -91,22 +91,7 @@
         display: flex;
         align-items: center;
     }
-    .site-logo__img{
-        width: 50px;
-        overflow-clip-margin: content-box;
-        overflow: clip;
-        margin-left: 0PX;
-    }
-    .btn-search{
-        justify-self: flex-end;
-       border: none;
-       background: none;
-    }
-    .avatar__image{
-        border-radius: 100%;
-        width: 35px;
-    }
-    
+
     .nav-mobile__principal-list{
         li{
             list-style-type: none;
