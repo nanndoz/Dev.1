@@ -128,8 +128,12 @@
             width: 24px;
             height: 24px;
         }
+        
     }
 
+    .other {
+        list-style-type: none;
+    }
     .container__social-media{
         img{
             color: gray;
@@ -265,7 +269,7 @@
 
     /*div derecho*/
     .col {   
-        border: none;
+        
         background-color: rgb(241, 239, 239);
         
         /*Card 1*/
@@ -275,6 +279,7 @@
             padding-right: 15px;
             margin-bottom: 10px;
             border-radius: 8px;
+            
             
             .card1__tittle {
                 padding-top: 20px;
@@ -371,5 +376,4 @@
 
 }
 }
-
 
