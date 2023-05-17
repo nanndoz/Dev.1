@@ -405,3 +405,99 @@
     }
 }
 
+.card--divder {
+    max-width: 25rem;
+    .card-header {
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        .images--divderecho {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            margin-top: 15px;
+            border: 10px;
+            border-color: black;
+        }
+        .text--madza {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 40px;
+            
+        }
+    }
+    .card-body {
+        margin-top: 40px;
+        .card-text {
+            margin-top: 20px;
+        }
+    }
+}
+.card-title {
+    margin-top: 20px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+.link-op {
+    text-decoration:dotted;
+
+}
+.text__center--post {
+    font-size: 50px;
+    font-weight: bold;
+}
+.container__buttons--post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container_comments--post {
+    margin-top: 30px;
+}
+
+.icons__reactions__post {
+    display: flex;
+    flex-direction: row;
+    .icon--reactions__post {
+
+        margin-left: 50px;
+    }
+    .num__icon--post {
+        margin-left: 15px;
+    }
+    
+}
+.reactions__comments--post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.text__center--post--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 30px;
+
+    .text--post {
+        font-size: 20px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    
+}
+
+.img__center--post {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    .img--center {
+        width: 650px;
+        height: 350px;
+
+    }
+}
